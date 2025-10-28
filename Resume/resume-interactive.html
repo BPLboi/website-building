@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="{{pathAdd}}./site-style.css" type="text/css" rel="stylesheet">
+    <script src="./resume-interactive.js"></script>
+</head>
+
+<body>
+    <link href="{{pathAdd}}./site-style.css" type="text/css" rel="stylesheet">
+
+    {% include 'top-bar.html' %}
+
+    <section id="main">
+        <section class="content">
+            <canvas id="testing-canvas" height="400" width="400" style="border:1px solid #c3c3c3;"></canvas>
+            <h1 id="testing-field">hello there yall!</h1>
+            <button id="test-button" type="button" onclick="changeText()"> cool button</button>
+        </section>
+    </section>
+
+    <script>
+        loadCanvas();
+    </script>
+
+</body>
+
+</html>

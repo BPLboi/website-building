@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <link href="{{pathAdd}}./site-style.css" type="text/css" rel="stylesheet">
+
+{% include 'top-bar.html' %}
+
+
+        <section id = "main">
+            <section id = "box-split-container">
+                <section class="left-half">
+                    <h2>Howdy!</h2>
+                    <p>Welcome to my website! I'm Boyan Litchev, and 
+                        as of October 2024, I'm a freshman at the University of Toronto.
+                        <br><br>
+                        My favorite academic things to do include math, computer science, and robotics, and I am currently
+                        studying the first two. In my free time, I fool around, read, and play video games.
+                    </p>
+                </section>
+
+                <figure class="right-half img-container">
+                    <img src = "{{pathAdd}}./Pictures/11th Grade Halloween.webp" alt = "Image unable to load">
+                        <figcaption>Myself, circa 2022. Photo by Vikram Anantha, an absolute GOAT.</figcaption>
+                </figure>
+            </section>
+        </section>
+    </body>
+</html>

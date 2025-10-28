@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <link href="site-style.css" type="text/css" rel="stylesheet">
+    {% include 'top-bar.html' %}
+
+    <section id="main">
+
+    </section>
+</body>
+
+</html>
+
+<!-- ------------------------------------------------------------------------------------------------------- -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <link href="{{pathAdd}}./site-style.css" type="text/css" rel="stylesheet">
+
+    {% include 'top-bar.html' %}
+
+    <section id="main">
+        <aside class="side-nav">
+            <h2>Contents</h2>
+            <ul>
+                <li> <a href="#section">Section</a></li>
+            </ul>
+        </aside>
+        <section class="content">
+            <h1>Title</h1>
+            <section id="section">
+                <h2>Section title</h2>
+                <p>Section contents</p>
+            </section>
+        </section>
+    </section>
+</body>

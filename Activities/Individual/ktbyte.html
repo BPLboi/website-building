@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <link href="{{pathAdd}}./site-style.css" type="text/css" rel="stylesheet">
+
+    {% include 'top-bar.html' %}
+
+    <section id="main">
+        <aside class="side-nav">
+            <h2>Contents</h2>
+            <ul>
+                <li> <a href="#section">Overview</a></li>
+                <li> <a href="#robo-teach">Robotics Teacher</a></li>
+                <li> <a href="#teach">Teaching Assistant</a></li>
+                <li> <a href="#coding-class">Coding Classes</a></li>
+                <li> <a href="#robo-club">Robotics Club</a></li>
+            </ul>
+        </aside>
+        <section class="content">
+            <h1>KTBYTE</h1>
+            <section id="overview">
+                <h2>Overview</h2>
+                <p><a href="https://www.ktbyte.com/">KTBYTE</a> is a computer science academy based in Lexington MA, the
+                    town where I grew up. There, I was introduced to robotics, learned to code, and eventually became a
+                    teacher for some of their classes during middle and high school.</p>
+            </section>
+            <section id="robo-teach">
+                <h2>Robotics Teacher</h2>
+                <p>During high school, I worked as a robotics instructor that taught young students how to use the
+                    Arduino microcontroller. To do this, I created materials explaining how to use various types of
+                    sensors, and also taught students how to code.</p>
+            </section>
+            <section id="teach">
+                <h2>Teaching Assistant</h2>
+                <p>Throughout high school, I worked as a teaching assistant for KTBYTE office hours. There, I helped
+                    students with the coding classes they were taking, which usually involved answering questions about
+                    inheritance, polymorphism, recursion, and data structures.</p>
+            </section>
+            <section id="coding-class">
+                <h2>Coding Classes</h2>
+                <p>Throughout middle school (and part of high school), I took (mostly) Java-based coding classes at
+                    KTBYTE to learn how to code! Here are some of the classes I took:
+                </p>
+                <ul style="list-style:none;">
+                    <li>CS00a -- Intro to Computer Science with Java</li>
+                    <li>CS00b -- Computer Science and Applications</li>
+                    <li>CS01a -- Algorithms and Problem Solving in Java</li>
+                    <li>CS02a -- Intermediate Algorithms</li>
+                    <li>CS02b -- Applied Data Structures</li>
+                    <li>USACO Silver</li>
+                    <li>USACO Gold</li>
+                    <li>Intro to Machine Learning</li>
+                </ul>
+                <p>Through the CS0xx classes, I learned how to program in Java, and covered loops, conditions,
+                    recursion, inheritance, polymorphism, and commonly used data structures (Stacks, Queues, Hash/Tree
+                    maps and sets,
+                    etc.). Towards the end of the course series, I did a project constructing Huffman Trees to compress
+                    text, and then analyzing how effective the compression was. </p>
+                <p>The USACO classes taught me about common computer science algorithms and tricks used to speed up
+                    computation, such as memoization, graph algorithms (breadth-first, depth-first, and
+                    Djikstra's), prefix sums, sliding windows, and more.</p>
+                <p>In the Machine Learning class I took, I learned how to use (with libraries) a few different machine
+                    learning models and environments to analyze datasets found on Kaggle.</p>
+            </section>
+            <section id="robo-club">
+                <h2>Robotics Club</h2>
+                <p>After the end of 5th grade, I signed up for a class at the KTBYTE Robotics club. There, I learned to
+                    use Arduino-s and sensors to create my own projects. The most notable project I made is a
+                    <a href="{{pathAdd}}./Projects/firefighter.html">Firefighter Robot</a>.
+                </p>
+            </section>
+        </section>
+    </section>
+</body>
