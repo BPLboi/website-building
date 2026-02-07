@@ -1,6 +1,6 @@
 # Website Builder
 
-Uses a specialized markdown format to create webpages.
+Uses a specialized markdown format to create the rest of the site.
 
 ## Goals
 
@@ -25,7 +25,4 @@ Specialized things worth having:
 - Should be able to embed canvases/javascript windows
 - Footnotes/comments on the side
 - Dark mode? (native?)
-
-
-
 
