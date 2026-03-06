@@ -1,0 +1,11 @@
+[package]
+name = "Builder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2.5.0"
+
+[[bin]]
+name="compile_templates"
+path="src/compile_templates.rs"
